@@ -4,6 +4,7 @@
 
 ### LOAD DATA INTO R ############################
 library(dplyr)
+library(readr)
 
 #nps_raw <- read_csv(file='https://raw.github.com/mandecki/nps_data/main/nps_fake.csv')
 nps_raw <- read_csv(file = 'nps_fake.csv')
